@@ -1,1 +1,5 @@
-Flask==3.0.3
+fastapi==0.115.2
+pydantic==2.9.2
+python_binance==1.0.19
+Requests==2.32.3
+uvicorn==0.31.1
