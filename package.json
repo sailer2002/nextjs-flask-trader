@@ -8,7 +8,8 @@
     "dev": "concurrently \"pnpm run next-dev\" \"pnpm run flask-dev\"",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "pip install -r requirements.txt"
   },
   "dependencies": {
     "@types/node": "20.1.4",
